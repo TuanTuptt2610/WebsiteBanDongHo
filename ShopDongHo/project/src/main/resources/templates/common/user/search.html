@@ -1,0 +1,17 @@
+<div class="search__area" th:fragment="search">
+                <div class="container" >
+                    <div class="row" >
+                        <div class="col-md-12" >
+                            <div class="search__inner">
+                                <form th:action="@{/searchProduct}" method="post">
+                                    <input placeholder="Search here... " type="text" name="text">
+                                    <button type="submit"></button>
+                                </form>
+                                <div class="search__close__btn">
+                                    <span class="search__close__btn_icon"><i class="zmdi zmdi-close"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
